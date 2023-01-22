@@ -78,12 +78,126 @@ ul {
 }
 
 .monials {
-    padding: 120px 0 925px;
+    padding: 120px 0 120px;
     margin: 0 150px;
     display: flex;
     text-align: center;
     justify-content: space-between;
 }
+
+.monials-item h3 {
+    padding: 30px;
+}
+
+.appartments-menu h1 {
+    padding: 0 5px 100px;
+    text-align: left;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #D4C17F;
+}
+
+.row-one {
+    padding: 0 5px 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around
+}
+
+.row-two {
+    display: flex;
+    text-align: center;
+    justify-content: space-around
+}
+
+.appartments-item {
+    position: relative;
+}
+
+.appartments-item img{
+    width: 100%;
+    height: auto;
+}
+
+.appartments-item h3 {
+    position: absolute;
+    right: auto;
+    top: 80%;
+    left: 10%;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.cta {
+    background-image: url('../images/cta-img.jpg');
+    background-repeat: no-repeat;
+}
+
+.cta-container {
+    display: flex;
+    padding: 180px 5px 0 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text {
+    width: 535px;
+    height: 114px;
+
+}
+
+.cta-text h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
+.cta-text p {
+    padding: 50px 25px 0 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.cta-form input {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 12px 31px;
+}
+
+.cta-items {
+    display: flex;
+    padding: 46px 30px 0 0;
+}
+
+.cta-items p {
+
+    width: 255px;
+    height: 28px;
+}
+
+.submit {
+    padding: 0 30px;
+}
+.cta-form{
+    padding: 59px 30px 0 90px;
+}
+
+.cta-items button {
+    border: none;
+    color: #ffffff;
+    background-color: #D4C17F;
+    padding: 12px 54px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    cursor: pointer;
+}
+
 
 @media (max-width: 560px){
     .header {
@@ -165,5 +279,51 @@ ul {
 
     .monials-item h3{
         padding: 10px 0;
+    }
+
+    .appartments-menu h1 {
+        text-align: center;
+    }
+
+    .row-one {
+        display: block;
+        margin: 0 30px;
+        padding: 0 5px;
+    }
+
+    .row-two {
+        display: block;
+        margin: 0 30px;
+        padding: 0 5px;
+    }
+
+    .appartments-menu {
+        display: block;
+    }
+
+    .appartments-item {
+        padding: 0 0 30px;
+    }
+
+    .appartments-item h3 {
+        left: 20%;
+        right: auto;
+        top: 40%;
+        font-weight: 700;
+        color: white
+    }
+
+    .cta-text h1{
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .cta-text p {
+        text-align: left;
+    }
+
+    .cta-form {
+        padding: 0px 0px;
+        display: none;
     }
 }
